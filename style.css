@@ -36,6 +36,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background: linear-gradient(180deg, rgba(128,128,128,1) 0%, rgba(169,169,169,1) 35%, rgba(128,128,128,1) 100%);
+    padding-bottom: 50px;
+
+
 }
 
 .main-h1 {
@@ -64,4 +68,19 @@
     padding: 20px;
     border-radius: 8px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+/* Footer */
+.footer-container {
+    width: auto;
+    height: 200px;
+    background: linear-gradient(180deg, rgba(128,128,128,1) 0%, rgba(169,169,169,1) 35%, rgba(128,128,128,1) 100%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content {
+    margin: 0 20px 0 20px;
 }
