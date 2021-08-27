@@ -122,4 +122,17 @@
   box-shadow: #26394d 0px 20px 30px -10px;
 }
 
+.job-content {
+  margin: 22px;
+  background-color: #4A4E69;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.job-wrap {
+  background-color: #9A8C98;
+  padding: 20px;
+}
+
 /*# sourceMappingURL=output.css.map */
