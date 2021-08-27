@@ -103,6 +103,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  border: solid 1px #22223B;
+}
+
+.button:hover {
+  border: solid white 1px;
 }
 
 /* -------------------Job--------------------- */
