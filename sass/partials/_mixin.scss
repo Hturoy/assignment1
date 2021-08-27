@@ -21,3 +21,21 @@
     justify-content: center;
     align-items: center;
 }
+
+@mixin container {
+    background-color: variables.$darkblue;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    
+}
+
+@mixin content {
+    margin: 0 20px 0 20px;
+    background-color: variables.$lightblue;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

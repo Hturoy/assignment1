@@ -57,11 +57,9 @@
     @include mixin.flexRow();
     justify-content: center;
     background-color: variables.$darkblue;
-    max-width: 600px;
-    margin: 12px;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;}
+    @include mixin.container();
+    margin: 20px;
+}
 
 .main-box {
     margin: 0 20px 0 20px;
@@ -96,3 +94,18 @@
 .button {
     @include mixin.button();
 }
+
+
+/* -------------------Job--------------------- */
+
+/* Job main */
+
+.job-main {
+    background-color: variables.$background;
+}
+
+.job-container {
+    @include mixin.flexColumn();
+    @include mixin.container();
+}
+

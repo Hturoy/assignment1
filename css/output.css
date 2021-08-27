@@ -54,11 +54,13 @@
   flex-direction: row;
   justify-content: center;
   background-color: #22223B;
+  background-color: #22223B;
   max-width: 600px;
-  margin: 12px;
+  margin: auto;
   padding: 20px;
   border-radius: 8px;
   box-shadow: #26394d 0px 20px 30px -10px;
+  margin: 20px;
 }
 
 .main-box {
@@ -101,6 +103,23 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/* -------------------Job--------------------- */
+/* Job main */
+.job-main {
+  background-color: #9A8C98;
+}
+
+.job-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #22223B;
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: #26394d 0px 20px 30px -10px;
 }
 
 /*# sourceMappingURL=output.css.map */
