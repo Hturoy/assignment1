@@ -90,4 +90,16 @@
   margin: auto;
 }
 
+.button {
+  background-color: #22223B;
+  border-radius: 8px;
+  width: 150px;
+  height: 65px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /*# sourceMappingURL=output.css.map */

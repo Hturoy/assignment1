@@ -1,3 +1,5 @@
+@use 'variables';
+
 @mixin flexRow() {
     display: flex;
     flex-direction: row;
@@ -6,4 +8,16 @@
 @mixin flexColumn() {
     display: flex;
     flex-direction: column;
+}
+
+@mixin button() {
+    background-color: variables.$darkblue;
+    border-radius: 8px;
+    width: 150px;
+    height: 65px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
