@@ -114,6 +114,7 @@
 /* Job main */
 .job-main {
   background-color: #9A8C98;
+  height: 100vh;
 }
 
 .job-container {
